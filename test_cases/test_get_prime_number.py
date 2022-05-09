@@ -1,5 +1,5 @@
 import replit
-from misc.prime_number import get_prime_number
+from misc.get_prime_number import get_prime_number
 
 
 def run_test_case():
