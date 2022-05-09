@@ -23,6 +23,9 @@ The following is a list of folders that contain the interview problems in differ
 - Shell
 - Concurrency
 
+**[Misc](./misc)**
+- Miscellaneous Questions
+
 ## Installing packages
 
 To add packages to your repl, you can just import directly in the file you want to use the package in, and it will automatically be installed when you press the run button. Like below:

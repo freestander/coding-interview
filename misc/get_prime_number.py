@@ -17,7 +17,7 @@ def get_prime_number(lower: int, upper: int) -> List:
     for num in range(lower, upper + 1):
         # all prime numbers are greater than 1
         if num > 1:
-            for i in range(2, num):
+            for i in range(2, num // 2 + 1):
                 if (num % i) == 0:
                     break
             prime_number_list.append(num)
